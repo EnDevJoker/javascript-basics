@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> Projeto </title>
+</head>
+<body>
+<div>
+
+    <h1>LOGIN</h1>
+
+
+</div>
+
+<div id="div1">
+    <form>
+            <fieldset>
+                    <label class="label1" for="name">Usuário: </label>
+                    <input class="input1" type="text">
+                    <br>
+                    <br>
+                <br>
+                    <label class="label1" for="password">Senha: </label>
+                    <input class="input1" type="password" name="" id="">
+                <br>
+                <br>
+                <br>
+                <button class="button-verify">Logar</button>
+
+</fieldset>
+</div>
+</form>
+<!-- Create -->
+<h2>Create User</h2>
+<label for="name">Name:</label>
+<input type="text" id="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+<label for="age"> Idade: </label>
+<input type="text" id="age" required>
+<button onclick="createUser()">Create</button>
+
+<!-- Read -->
+<h2>Users</h2>
+<ul id="userList">
+    <!-- Usuários listados aqui -->
+</ul>
+
+<!-- Update -->
+<h2>Update User</h2>
+<label for="updateId">User ID:</label>
+<input type="text" id="updateId" required>
+<label for="newEmail">Novo Email:</label>
+<input type="email" id="newEmail" required>
+<label for="newAge">Idade:</label>
+<input type="text" id="newAge" required>
+<button onclick="updateUser()">Update</button>
+
+<!-- Delete -->
+<h2>Delete User</h2>
+<label for="deleteId">User ID:</label>
+<input type="text" id="deleteId" required>
+<button onclick="deleteUser()">Delete</button>
+
+
+
+<script src="code.js"></script>
+</body>
+</html>
